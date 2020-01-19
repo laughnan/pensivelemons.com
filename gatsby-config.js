@@ -5,7 +5,7 @@ module.exports = {
     description: `Personal blog by Alex Laughnan.`,
     siteUrl: `https://pensivelemons.com/`,
     social: {
-      twitter: `alxlghn`,
+      twitter: `laughnan`,
     },
   },
   plugins: [

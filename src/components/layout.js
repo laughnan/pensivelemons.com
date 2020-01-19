@@ -34,7 +34,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
+            fontFamily: `Bebas Neue, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -62,10 +62,22 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
+        <div
+          style={{
+            display: `flex`,
+            justifyContent: `space-evenly`,
+            marginBottom: `20px`,
+          }}
+        >
+          <div><a href="https://twitter.com/laughnan">Twitter</a></div>
+          <div><a href="https://www.linkedin.com/in/alexlaughnan/">LinkedIn</a></div>
+          <div><a href="https://github.com/laughnan">Github</a></div>
+          <div><a href="https://www.drupal.org/u/laughnan">Drupal.org</a></div>
+        </div>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">gatsby</a>
         </footer>
       </div>
     )
