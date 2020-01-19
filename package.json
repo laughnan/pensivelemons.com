@@ -7,6 +7,11 @@
   "bugs": {
     "url": "https://github.com/laughnan/pensivelemons.com/issues"
   },
+  "husky": {
+    "hooks": {
+        "commit-msg": "commitlint -e"
+    }
+  },
   "dependencies": {
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
@@ -35,6 +40,9 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.0.10",
     "prettier": "^1.19.1"
   },
   "homepage": "https://github.com/laughnan/pensivelemons.com#readme",
